@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<style>
+    body{
+        background-color: rgb(255, 255, 255);
+    };
+    .row h1{
+    };
+</style>
+<body>
+   
+    <h1>Exploring events</h1>
+
+    <!-- on click events method -->
+    <button onclick="alert(10)">Click Me</button>
+    <!-- handle click  -->
+    <br><br>
+    <button onclick="handleClick()">Click Me</button>
+    <script>
+        function handleClick() {
+            console.log("Someone Clicked me");
+        }
+    </script>
+
+    <!-- date time dekhar jonno -->
+    <br><br>
+    <button onclick="handleClick()">Click Me</button>
+    <script>
+        function handleClick() {
+            console.log(new Date);
+        }
+    </script>
+
+    <!-- mousemove -->
+    <!-- <br><br>
+    <button onmousemove="handleClick()">Click Me</button>
+    <script>
+        function onmousemove() {
+            console.log("Someone is over me");
+        }
+    </script> -->
+
+    <!-- mouse out -->
+    <br><br>
+    <button onmouseout="handleClick()">Click Me</button>
+    <script>
+        function handleClick() {
+            console.log("someone is over me");
+        }
+    </script>
+
+    <br><br>
+    <button id="first">Click Me 1</button>
+    <button id="second">Click Me 2</button>
+    <button id="third">Click Me 3</button>
+    <button>Click Me 4</button>
+    <!-- Click korar por consol e show korbe -->
+    <script>
+        const secondButton = document.getElementById("second");
+        secondButton.onclick = function(){
+            console.log("second person clicked");
+        }
+    </script>
+
+    <!-- click korar por background e show korbe -->
+    <script>
+        function handleClick() {
+            document.body.style.backgroundColor = "cyan";
+        }
+        const firstButton = document.getElementById("first");
+        firstButton.onclick = handleClick;
+    </script>
+
+    <!-- add event listainer -->
+    <script>
+    document.getElementById("third").addEventListener("click",function(){
+        document.body.style.backgroundColor = "tomato";
+    })
+    </script>
+
+    
+
+    <!-- Add JavaScript -->
+    <script src="hello.js"></script>
+</body>
+</html>

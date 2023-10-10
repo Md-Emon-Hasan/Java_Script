@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+<style>
+    body{
+        background-color: rgb(255, 255, 255);
+    };
+    .row h1{
+
+    };
+</style>
+<body>
+    
+    <div class="row">
+        <h1>hello</h1>
+        <h1>What's up</h1>
+        <p class="author">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, sequi.</p>
+        <p class="author">my first heading</p>
+        <p class="author">my second heading</p>
+    </div>
+
+    <!-- Add JavaScript -->
+    <script src="hello.js"></script>
+    <script>
+        console.log(45);
+        alert(45);
+    </script>
+    <script>
+        var authors = document.getElementsByClassName('author');
+        for (var i = 0; i < authors.length; i++){
+        var element = authors[i];
+        element.style.backgroundColor = 'lightblue'; 
+        element.style.margin = '10px';    
+        }
+    </script>
+</body>
+</html>
