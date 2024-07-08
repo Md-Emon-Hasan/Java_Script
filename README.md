@@ -5,7 +5,6 @@ Welcome to the **JavaScript Projects Repository** by Md Emon Hasan. This reposit
 ## 📋 Contents
 
 - [Introduction](#introduction)
-- [Project List](#project-list)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
@@ -18,17 +17,6 @@ Welcome to the **JavaScript Projects Repository** by Md Emon Hasan. This reposit
 ## 📖 Introduction
 
 This repository hosts a collection of JavaScript projects developed by Md Emon Hasan. Each project demonstrates different aspects of JavaScript programming, ranging from basic concepts to advanced applications.
-
----
-
-## 📁 Project List
-
-Below are the projects included in this repository:
-
-1. **Project 1**: Description of Project 1.
-2. **Project 2**: Description of Project 2.
-3. **Project 3**: Description of Project 3.
-   <!-- Add more projects as necessary -->
 
 ---
 
